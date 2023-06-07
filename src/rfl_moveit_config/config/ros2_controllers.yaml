@@ -1,0 +1,244 @@
+# This config file is used by ros2_control
+controller_manager:
+  ros__parameters:
+    update_rate: 100  # Hz
+
+    robot11_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot12_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot11_eaXYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot12_eaYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot21_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot22_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot21_eaXYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot22_eaYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot11_eaYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot21_eaYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot12_eaXYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    robot22_eaXYZ_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+robot11_controller:
+  ros__parameters:
+    joints:
+      - robot11_joint_1
+      - robot11_joint_2
+      - robot11_joint_3
+      - robot11_joint_4
+      - robot11_joint_5
+      - robot11_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot12_controller:
+  ros__parameters:
+    joints:
+      - robot12_joint_1
+      - robot12_joint_2
+      - robot12_joint_3
+      - robot12_joint_4
+      - robot12_joint_5
+      - robot12_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot11_eaXYZ_controller:
+  ros__parameters:
+    joints:
+      - bridge1_joint_EA_X
+      - robot11_joint_EA_Y
+      - robot11_joint_EA_Z
+      - robot11_joint_1
+      - robot11_joint_2
+      - robot11_joint_3
+      - robot11_joint_4
+      - robot11_joint_5
+      - robot11_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot12_eaYZ_controller:
+  ros__parameters:
+    joints:
+      - robot12_joint_EA_Y
+      - robot12_joint_EA_Z
+      - robot12_joint_1
+      - robot12_joint_2
+      - robot12_joint_3
+      - robot12_joint_4
+      - robot12_joint_5
+      - robot12_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot21_controller:
+  ros__parameters:
+    joints:
+      - robot21_joint_1
+      - robot21_joint_2
+      - robot21_joint_3
+      - robot21_joint_4
+      - robot21_joint_5
+      - robot21_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot22_controller:
+  ros__parameters:
+    joints:
+      - robot22_joint_1
+      - robot22_joint_2
+      - robot22_joint_3
+      - robot22_joint_4
+      - robot22_joint_5
+      - robot22_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot21_eaXYZ_controller:
+  ros__parameters:
+    joints:
+      - bridge2_joint_EA_X
+      - robot21_joint_EA_Y
+      - robot21_joint_EA_Z
+      - robot21_joint_1
+      - robot21_joint_2
+      - robot21_joint_3
+      - robot21_joint_4
+      - robot21_joint_5
+      - robot21_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot22_eaYZ_controller:
+  ros__parameters:
+    joints:
+      - robot22_joint_EA_Y
+      - robot22_joint_EA_Z
+      - robot22_joint_1
+      - robot22_joint_2
+      - robot22_joint_3
+      - robot22_joint_4
+      - robot22_joint_5
+      - robot22_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot11_eaYZ_controller:
+  ros__parameters:
+    joints:
+      - robot11_joint_EA_Y
+      - robot11_joint_EA_Z
+      - robot11_joint_1
+      - robot11_joint_2
+      - robot11_joint_3
+      - robot11_joint_4
+      - robot11_joint_5
+      - robot11_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot21_eaYZ_controller:
+  ros__parameters:
+    joints:
+      - robot21_joint_EA_Y
+      - robot21_joint_EA_Z
+      - robot21_joint_1
+      - robot21_joint_2
+      - robot21_joint_3
+      - robot21_joint_4
+      - robot21_joint_5
+      - robot21_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot12_eaXYZ_controller:
+  ros__parameters:
+    joints:
+      - bridge1_joint_EA_X
+      - robot12_joint_EA_Y
+      - robot12_joint_EA_Z
+      - robot12_joint_1
+      - robot12_joint_2
+      - robot12_joint_3
+      - robot12_joint_4
+      - robot12_joint_5
+      - robot12_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+robot22_eaXYZ_controller:
+  ros__parameters:
+    joints:
+      - bridge2_joint_EA_X
+      - robot22_joint_EA_Y
+      - robot22_joint_EA_Z
+      - robot22_joint_1
+      - robot22_joint_2
+      - robot22_joint_3
+      - robot22_joint_4
+      - robot22_joint_5
+      - robot22_joint_6
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity

@@ -1,0 +1,4 @@
+source;share/rfl_description/local_setup.bash
+source;share/rfl_description/local_setup.dsv
+source;share/rfl_description/local_setup.sh
+source;share/rfl_description/local_setup.zsh

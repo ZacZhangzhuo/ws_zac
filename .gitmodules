@@ -6,3 +6,7 @@
 [submodule "src/abb_crb15000_5_95_moveit_config"]
 	path = src/abb_crb15000_5_95_moveit_config
 	url = https://github.com/ZacZhangzhuo/abb_crb15000_5_95_moveit_config.git
+
+[submodule "src/rfl_description"]
+	path = src/rfl_description
+	url = https://github.com/yijiangh/rfl_description.git

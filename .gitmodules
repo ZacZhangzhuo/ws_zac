@@ -14,8 +14,10 @@
 [submodule "src/abb_irb4600_40_255"]
 	path = src/abb_irb4600_40_255
 	url = https://github.com/ZacZhangzhuo/abb_irb4600_40_255.git
-
-[submodule "src/abb_irb4600_40_255_moveit_config"]
-	path = src/abb_irb4600_40_255_moveit_config
-	url = https://github.com/ZacZhangzhuo/abb_irb4600_40_255_moveit_config.git
-
+[submodule "src/gitabb_irb4600_40_255_moveit_config"]
+	path = src/gitabb_irb4600_40_255_moveit_config
+	url = https://github.com/ZacZhangzhuo/abb_irb4600_40_255_moveit_config
+[submodule "src/Universal_Robots_ROS2_Description"]
+	path = src/Universal_Robots_ROS2_Description
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS2_Description.git
+	branch = humble

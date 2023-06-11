@@ -10,3 +10,12 @@
 [submodule "src/rfl_description"]
 	path = src/rfl_description
 	url = https://github.com/yijiangh/rfl_description.git
+
+[submodule "src/abb_irb4600_40_255"]
+	path = src/abb_irb4600_40_255
+	url = https://github.com/ZacZhangzhuo/abb_irb4600_40_255.git
+
+[submodule "src/abb_irb4600_40_255_moveit_config"]
+	path = src/abb_irb4600_40_255_moveit_config
+	url = https://github.com/ZacZhangzhuo/abb_irb4600_40_255_moveit_config.git
+
